@@ -1,0 +1,1 @@
+{"cmd": "\nkw_model.extract_keywords(data['content'][0], top_n=20, keyphrase_ngram_range=(1,3))\n# kw_model.extract_keywords(doc, top_n=20, keyphrase_ngram_range=(1,2))", "cmd_opts": " --cell_id=N9ksaow0rB -s", "import_complete": 1, "terminal": "nvimterm"}

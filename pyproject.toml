@@ -1,0 +1,24 @@
+[project]
+name = "nv-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "dateparser>=1.2.0",
+    "gensim>=4.3.3",
+    "ipython>=8.12.3",
+    "keybert[flair,gensim,spacy,use]>=0.8.5",
+    "nltk>=3.9.1",
+    "polars>=1.8.2",
+    "pysqlite3-binary>=0.5.4",
+    "pyvi>=0.1.1",
+    "spacy<3.7.0",
+    "tensorflow-cpu>=2.12.0",
+    "tokenizer>=3.4.4",
+    "transformers>=4.46.2",
+    "vi-core-news-lg",
+]
+
+[tool.uv.sources]
+vi-core-news-lg = { url = "https://gitlab.com/trungtv/vi_spacy/-/raw/master/vi_core_news_lg/dist/vi_core_news_lg-0.0.1.tar.gz" }

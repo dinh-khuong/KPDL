@@ -1,0 +1,1 @@
+{"cmd": "\ntrain_test_df = train_df.select('content').extend(test_df)\ntrain_test_df.write_parquet(\"data/combine.parquet\")\n", "cmd_opts": " --cell_id=eRjb8vy4lU -s", "import_complete": 1, "terminal": "nvimterm"}
